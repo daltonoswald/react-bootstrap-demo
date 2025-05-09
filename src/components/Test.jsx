@@ -6,7 +6,7 @@ function Test() {
 
   return (
     <>
-     <div className="App">
+     <div className="app">
       <NavHeader />
         <a href='/'>Home</a>
     </div>

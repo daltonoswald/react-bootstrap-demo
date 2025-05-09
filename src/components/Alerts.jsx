@@ -10,7 +10,7 @@ function Alerts() {
 
   return (
     <>
-     <div className="App">
+     <div className="app">
       <NavHeader />
         <Container>
             {[
