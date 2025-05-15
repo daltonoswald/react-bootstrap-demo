@@ -8,6 +8,10 @@ import Alerts from './components/Alerts.jsx'
 import Buttons from './components/Buttons.jsx'
 import './app.styles.css'
 import Forms from './components/Forms.jsx'
+import Breadcrumbs from './components/Breadcrumbs.jsx'
+import BreadcrumbsCandy from './components/BreadcrumbsCandy.jsx'
+import BreadcrumbsCookies from './components/BreadcrumbsCookies.jsx'
+import BreadcrumbsIceCream from './components/BreacrumbsIceCream.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
   {
     path: 'alerts',
     element: <Alerts />
+  },
+  {
+    path: 'breadcrumbs',
+    element: <Breadcrumbs />
+  },
+  {
+    path: 'breadcrumbs/candy',
+    element: <BreadcrumbsCandy />
+  },
+  {
+    path: 'breadcrumbs/cookies',
+    element: <BreadcrumbsCookies />
+  },
+  {
+    path: 'breadcrumbs/icecream',
+    element: <BreadcrumbsIceCream />
   },
   {
     path: 'buttons',

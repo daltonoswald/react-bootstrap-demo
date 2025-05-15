@@ -13,6 +13,7 @@ export default function NavHeader() {
                         <Nav.Link as={Link} to='test'>Test</Nav.Link>
                         <NavDropdown title='Examples' id='basic-nav-dropdown'>
                             <NavDropdown.Item as={Link} to='/alerts'>Alerts</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/breadcrumbs'>Breadcrumbs</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/buttons'>Buttons</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/cards'>Cards</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/forms'>Forms</NavDropdown.Item>

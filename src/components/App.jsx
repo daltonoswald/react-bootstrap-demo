@@ -15,7 +15,6 @@ function App() {
             <Breadcrumb.Item active>Test 2</Breadcrumb.Item>
             <Breadcrumb.Item>Test 3</Breadcrumb.Item>
           </Breadcrumb>
-          <Alert variant='danger'>This is a button</Alert>
           <Button>Test Button</Button>
         </Container>
     </div>
