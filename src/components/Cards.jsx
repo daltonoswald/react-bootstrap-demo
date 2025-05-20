@@ -6,8 +6,8 @@ export default function Cards() {
     return (
         <div className='app'>
             <NavHeader />
-            <Container>
-                <Card className='mb-3' style={{ color: "#000" }}>
+            <Container >
+                <Card className='mb-3' style={{ color: "#000" }} >
                     <Card.Img src="http://picsum.photos/200/50" />
                     <Card.Body>
                     <Card.Title>Card Example</Card.Title>

@@ -12,7 +12,7 @@ function Alerts() {
     <>
      <div className="app">
       <NavHeader />
-        <Container>
+        <Container >
             {[
                 'primary',
                 'secondary',

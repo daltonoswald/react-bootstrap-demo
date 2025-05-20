@@ -15,11 +15,14 @@ import BreadcrumbsIceCream from './components/BreacrumbsIceCream.jsx'
 import Progressbars from './components/ProgressBars.jsx'
 import Spinners from './components/Spinners.jsx'
 import Accordians from './components/Accordions.jsx'
+import ColorModes from './components/ColorModes.jsx'
+import Error from './components/Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    errorElement: <Error />
   },
   {
     path: "accordions",
@@ -52,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: 'cards',
     element: <Cards />
+  },
+  {
+    path: 'color-modes',
+    element: <ColorModes />
   },
   {
     path: 'forms',

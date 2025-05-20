@@ -7,7 +7,7 @@ export default function Forms() {
         <div className='app'>
             <NavHeader />
             <Container>
-                <Form>
+                <Form >
                 <Row>
                 <Col md>
                     <Form.Group controlId='formEmail'>

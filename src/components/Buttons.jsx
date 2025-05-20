@@ -15,7 +15,7 @@ export default function Buttons() {
     return (
         <div className='app'>
             <NavHeader />
-            <Container>
+            <Container >
                 <Col>
                     {[
                         'primary',
