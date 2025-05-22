@@ -17,6 +17,7 @@ import Spinners from './components/Spinners.jsx'
 import Accordians from './components/Accordions.jsx'
 import ColorModes from './components/ColorModes.jsx'
 import Error from './components/Error.jsx'
+import Images from './components/Images.jsx'
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
   {
     path: 'forms',
     element: <Forms />
+  },
+  {
+    path: 'images',
+    element: <Images />
   },
   {
     path: 'progress-bars',

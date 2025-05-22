@@ -19,6 +19,7 @@ export default function NavHeader() {
                             <NavDropdown.Item as={Link} to='/cards'>Cards</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/color-modes'>Color Modes</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/forms'>Forms</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/images'>Images</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/progress-bars'>Progress Bars</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to='/spinners'>Spinners</NavDropdown.Item>
                             <NavDropdown.Divider />
